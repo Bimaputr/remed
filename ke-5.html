@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="datanya"></div>
+    <script>
+        var lampu ="kuning";
+        switch (lampu) {
+            case "merah":
+                console.log("lampu nyala warna merah");
+                document.getElementById("datanya").innerHTML = "lampu nyala warna merah";
+                break;
+
+                case "kuining":
+                console.log("lampu nyala warna kuining");
+                document.getElementById("datanya").innerHTML = "lampu nyala warna kuning";
+                break;
+
+                case "hijau":
+                    console.log("lampu nyala warna hijau");
+                    break;
+            default:
+                console.log("tidak ada warna lampu tersebut");
+                break;
+        }
+    </script>
+</body>
+</html>
